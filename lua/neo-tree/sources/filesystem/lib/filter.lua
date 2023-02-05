@@ -189,9 +189,9 @@ M.show_filter = function(state, search_as_you_type, fuzzy_finder_mode)
       vim.cmd("redraw!")
     end
     input:map("i", "<down>", move_cursor_down, { noremap = true })
-    input:map("i", "<C-n>", move_cursor_down, { noremap = true })
+    input:map("i", "<C-j>", move_cursor_down, { noremap = true })
     input:map("i", "<up>", move_cursor_up, { noremap = true })
-    input:map("i", "<C-p>", move_cursor_up, { noremap = true })
+    input:map("i", "<C-k>", move_cursor_up, { noremap = true })
   end
 end
 
